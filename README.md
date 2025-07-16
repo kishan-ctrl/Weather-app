@@ -46,7 +46,7 @@ A backend project that fetches real-time weather data from OpenWeatherMap API an
 ```
 
 API Endpoints
-###POST/weather
+POST/weather
 Description: Fetch and save weather data for a city from OpenWeatherMap
 Request Body
 ```bash
@@ -68,7 +68,7 @@ Postman
 ![Postman Screenshot](./images/POST.jpg)
 
 
-###GET/weather
+GET/weather
 Description:  Retrieve all stored weather data
 ```bash
    http://localhost:5000/weather
@@ -78,7 +78,7 @@ Postman
 ![Postman Screenshot](./images/GET ALL.jpg)
 
 
-###GET/weather/:city
+GET/weather/:city
 Description:Get weather data for a specific city
 ```bash
    http://localhost:5000/weather/trincomalee
@@ -99,7 +99,7 @@ Success response
 Postman
 ![Postman Screenshot](./images/GETCITY.jpg)
 
-###PUT/weather/:city
+PUT/weather/:city
 HTTP URL
 ```bash
    http://localhost:5000/weather/colombo
