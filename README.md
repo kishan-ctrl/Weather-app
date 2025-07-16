@@ -45,14 +45,14 @@ A backend project that fetches real-time weather data from OpenWeatherMap API an
    node server.js
 ```
 
-##API Endpoints
+API Endpoints
 
 Description: Fetch and save weather data for a city from OpenWeatherMap
 Request Body
 ```bash
    { "city": "matale" }
 ```
-### 1.Success response
+Success response
 ```bash
    {
   "_id": "...",
@@ -64,7 +64,7 @@ Request Body
   "date": "..."
 }
 ```
-##POST Method
+POST Method
 ![Postman Screenshot](./images/POST.jpg)
 
 
