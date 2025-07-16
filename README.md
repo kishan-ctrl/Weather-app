@@ -51,7 +51,7 @@ weather-app/
 ```bash
    npm install nodemon --save-dev
 ```
-### 3. start the server  
+### 6. start the server  
 
 ```bash
    node server.js
