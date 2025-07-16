@@ -14,20 +14,8 @@ A backend project that fetches real-time weather data from OpenWeatherMap API an
 
 ## Project Structure
 
-```
-weather-app/
-   config/
-       db.js
-   models/
-       Weather.js
-   routes/
-       weather.js
-.env
-.gitignore
-server.js
-package.json
-README.md
-```
+![Project Structure Screenshot](./images/structure.jpg)
+
 
 
 ### ⚙️ Setup Instructions
