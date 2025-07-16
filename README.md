@@ -38,9 +38,18 @@ weather-app/
    git clone https://github.com/kishan-ctrl/Weather-app.git
    cd weather-app 
 ```
-### 2. Instal dependency 
+### 2. Initialize the Node.js Project
 ```bash
-   npm install
+   npm init -y
+```
+
+### 4.Install Required Dependencies
+```bash
+   npm install express mongoose axios dotenv
+```
+### 5.Install Dev Dependencies
+```bash
+   npm install nodemon --save-dev
 ```
 ### 3. start the server  
 
