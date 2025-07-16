@@ -15,7 +15,6 @@ A backend project that fetches real-time weather data from OpenWeatherMap API an
 ## 📁 Project Structure
 
 ```
-.
 weather-app/
 ├── config/
 ├── models/
@@ -30,11 +29,11 @@ weather-app/
 └── README.md
 ```
 
----
 
-## ⚙️ Setup Instructions
+### ⚙️ Setup Instructions
 
 ### 1. Clone this repo:
+
 ```bash
    git clone https://github.com/kishan-ctrl/Weather-app.git
    cd weather-app 
