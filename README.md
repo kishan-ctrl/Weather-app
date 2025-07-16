@@ -1,15 +1,15 @@
-# 🌦️ Weather App (Node.js + MongoDB)
+# Weather App (Node.js + MongoDB)
 
 A backend project that fetches real-time weather data from the OpenWeatherMap API and stores it in MongoDB. This application provides RESTful APIs to create, read, update, and delete weather data for different cities.
 
-## ✨ Features
+## Features
 
 -   Fetch real-time weather data from OpenWeatherMap.
 -   Store weather data in a MongoDB database.
 -   RESTful API endpoints for CRUD operations.
 -   Scalable and well-structured project layout.
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 -   **Backend Runtime:** Node.js
 -   **API Framework:** Express.js
@@ -19,7 +19,7 @@ A backend project that fetches real-time weather data from the OpenWeatherMap AP
 -   **Environment Variables:** dotenv
 -   **API Testing:** Postman
 
-## ⚙️ Setup and Installation
+## Setup and Installation
 
 Follow these steps to get the project up and running on your local machine.
 
@@ -86,13 +86,14 @@ node server.js
 
 The server will start on the port defined in your `.env` file (e.g., `http://localhost:5000`).
 
-## 🚀 API Endpoints
+## API Endpoints
 
 The following are the available API endpoints for interacting with the weather data.
 
 ---
 
 ### `POST /weather`
+![Postman Screenshot](./images/POST.jpg)
 
 **Description:** Fetches weather data for a specified city from OpenWeatherMap and saves it to the database.
 
@@ -121,6 +122,7 @@ The following are the available API endpoints for interacting with the weather d
 ---
 
 ### `GET /weather`
+![Postman Screenshot](./images/GET%20ALL.jpg)
 
 **Description:** Retrieves all stored weather data records from the database.
 
@@ -157,6 +159,8 @@ The following are the available API endpoints for interacting with the weather d
 
 ### `GET /weather/:city`
 
+![Postman Screenshot](./images/GETCITYjpg.jpg)
+
 **Description:** Retrieves weather data for a specific city by its name.
 
 **Example URL:** `http://localhost:5000/weather/trincomalee`
@@ -183,6 +187,8 @@ The following are the available API endpoints for interacting with the weather d
 **Description:** Manually updates the weather data for a specific city in the database.
 
 **Example URL:** `http://localhost:5000/weather/colombo`
+
+![Postman Screenshot](./images/PUT.jpg)
 
 **Request Body:**
 
