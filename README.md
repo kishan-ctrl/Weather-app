@@ -1,0 +1,45 @@
+# 🌦 Weather App (Node.js + MongoDB)
+
+A backend project that fetches real-time weather data from OpenWeatherMap API and stores it in MongoDB. Provides RESTful APIs to Create, Read, and Delete weather data.
+
+## 🚀 Tech Stack
+
+- **Node.js** – Backend runtime
+- **Express.js** – API server framework
+- **MongoDB** – NoSQL database
+- **Mongoose** – MongoDB ORM
+- **Axios** – API client
+- **dotenv** – Environment variable management
+- **Postman** – API testing tool
+
+## 📁 Project Structure
+
+weather-app/
+├── config/
+├── models/
+│ └── db.js # MongoDB connection
+│ └── Weather.js # Mongoose schema
+├── routes/
+│ └── weather.js # Weather API routes
+├── .env # API keys and DB connection 
+├── .gitignore
+├── server.js # Main app file
+├── package.json
+└── README.md
+
+
+
+---
+
+## ⚙️ Setup Instructions
+
+1. Clone this repo:
+   ```bash
+   git clone
+   cd weather-app 
+2. npm install
+3. start the server   
+   node server.js
+
+
+
